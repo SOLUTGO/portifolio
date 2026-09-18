@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gustavo | Analista de Sistemas & Dados • Full-Stack Developer</title>
+  
+  <!-- SEO & Open Graph Meta Tags -->
+  <meta name="description" content="Portfólio de Gustavo (SOLUTGO) - Analista de Sistemas & Dados e Desenvolvedor Full-Stack especializado em SQL, Power BI, Python, React, Supabase e Flutter. Fundador da Solut Go Tecnologia.">
+  <meta name="keywords" content="Gustavo, SOLUTGO, Analista de Dados, Power BI, SQL, Python, React, Supabase, Flutter, Solut Go Tecnologia, Itaituba Pará, Portfólio">
+  <meta name="author" content="Gustavo (SOLUTGO)">
+  
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Gustavo | Analista de Sistemas & Dados • Full-Stack Developer">
+  <meta property="og:description" content="Especialista em SQL, Power BI, Python, React e Flutter. Conheça meus projetos, habilidades e trajetória.">
+  <meta property="og:url" content="https://solutgo.github.io/">
+  <meta property="og:site_name" content="Portfólio Gustavo">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Gustavo | Analista de Sistemas & Dados">
+  <meta name="twitter:description" content="Portfólio profissional de Gustavo - Soluções em Dados, BI e Desenvolvimento Full-Stack.">
+
+  <!-- Favicon SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%230f172a'/><path d='M28 50 L42 64 L72 34' stroke='%2338bdf8' stroke-width='10' stroke-linecap='round' stroke-linejoin='round' fill='none'/></svg>">
+
+  <!-- Google Fonts: Plus Jakarta Sans & Fira Code -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient background glow elements -->
+  <div class="glow-orb glow-orb-1" aria-hidden="true"></div>
+  <div class="glow-orb glow-orb-2" aria-hidden="true"></div>
+  <div class="glow-orb glow-orb-3" aria-hidden="true"></div>
+  <div class="grid-overlay" aria-hidden="true"></div>
+
+  <!-- Header / Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Voltar ao início">
+        <span class="logo-accent">&lt;</span>SOLUT<span class="logo-highlight">GO</span><span class="logo-accent">/&gt;</span>
+      </a>
+
+      <nav class="nav-links" id="nav-links" aria-label="Navegação Principal">
+        <a href="#about" class="nav-link">Sobre</a>
+        <a href="#skills" class="nav-link">Habilidades</a>
+        <a href="#projects" class="nav-link">Projetos</a>
+        <a href="#github-stats" class="nav-link">Estatísticas</a>
+        <a href="#contact" class="nav-link">Contato</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-sm btn-outline">Fale Comigo</a>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Abrir menu de navegação" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        
+        <div class="hero-content">
+          <!-- Availability Badge -->
+          <div class="status-badge">
+            <span class="status-dot"></span>
+            <span class="status-text">Disponível para novos projetos & oportunidades</span>
+          </div>
+
+          <h1 class="hero-title">
+            Olá, eu sou o <span class="gradient-text">Gustavo</span>
+            <span class="wave-emoji" aria-hidden="true">👋</span>
+          </h1>
+
+          <div class="typewriter-container" aria-label="Especialidades">
+            <span class="typewriter-prefix">Atuação: </span>
+            <span class="typewriter-text" id="typewriter-text"></span>
+            <span class="typewriter-cursor">|</span>
+          </div>
+
+          <p class="hero-description">
+            Analista de Sistemas & Dados e Desenvolvedor Full-Stack em transição para 
+            <strong>Análise de Dados & BI</strong>. Fundador da <strong>Solut Go Tecnologia</strong>, 
+            construindo soluções que conectam inteligência de dados, engenharia de software e impacto real para negócios.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>Explorar Projetos</span>
+              <svg class="icon-arrow" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span>Entrar em Contato</span>
+            </a>
+            <a href="https://github.com/SOLUTGO" target="_blank" rel="noopener noreferrer" class="btn btn-icon" aria-label="Acessar GitHub de Gustavo">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            </a>
+          </div>
+
+          <!-- Quick Highlights / Pills -->
+          <div class="hero-pills">
+            <div class="hero-pill">
+              <span class="pill-dot color-data"></span>
+              <span>SQL & Power BI</span>
+            </div>
+            <div class="hero-pill">
+              <span class="pill-dot color-code"></span>
+              <span>Python & React</span>
+            </div>
+            <div class="hero-pill">
+              <span class="pill-dot color-mobile"></span>
+              <span>Flutter & Dart</span>
+            </div>
+            <div class="hero-pill">
+              <span class="pill-dot color-db"></span>
+              <span>Firebird & ERP</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Card / Profile Preview -->
+        <div class="hero-profile-card">
+          <div class="profile-card-glass">
+            <div class="profile-card-header">
+              <div class="window-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <span class="profile-card-tag">gustavo_dev.json</span>
+            </div>
+
+            <div class="profile-card-body">
+              <div class="code-preview">
+                <pre><code><span class="tok-keyword">const</span> <span class="tok-variable">developer</span> = {
+  <span class="tok-prop">nome</span>: <span class="tok-string">"Gustavo"</span>,
+  <span class="tok-prop">local</span>: <span class="tok-string">"Itaituba, Pará - BR 📍"</span>,
+  <span class="tok-prop">empresa</span>: <span class="tok-string">"Solut Go Tecnologia 🚀"</span>,
+  <span class="tok-prop">parceria</span>: <span class="tok-string">"LC Sistemas ERP"</span>,
+  <span class="tok-prop">focoAtual</span>: [
+    <span class="tok-string">"Análise de Dados (BI)"</span>,
+    <span class="tok-string">"Engenharia de Dashboards"</span>,
+    <span class="tok-string">"Desenvolvimento Full-Stack"</span>
+  ],
+  <span class="tok-prop">bancoDados</span>: [<span class="tok-string">"Firebird"</span>, <span class="tok-string">"PostgreSQL"</span>, <span class="tok-string">"SQL"</span>],
+  <span class="tok-prop">disponibilidade</span>: <span class="tok-bool">true</span>
+};</code></pre>
+              </div>
+
+              <div class="profile-card-stats">
+                <div class="mini-stat">
+                  <span class="mini-stat-num">3+</span>
+                  <span class="mini-stat-label">Áreas de Domínio</span>
+                </div>
+                <div class="mini-stat-divider"></div>
+                <div class="mini-stat">
+                  <span class="mini-stat-num">ERP</span>
+                  <span class="mini-stat-label">Especialista LC</span>
+                </div>
+                <div class="mini-stat-divider"></div>
+                <div class="mini-stat">
+                  <span class="mini-stat-num">100%</span>
+                  <span class="mini-stat-label">Comprometimento</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-badge">Trajetória</span>
+          <h2 class="section-title">Sobre Mim</h2>
+          <p class="section-subtitle">
+            Unindo a visão prática de operações empresariais, infraestrutura de TI e a precisão da análise de dados.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          
+          <div class="about-card glass-card">
+            <div class="about-card-icon data-icon">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>
+            </div>
+            <h3 class="about-card-title">Análise de Dados & BI</h3>
+            <p class="about-card-desc">
+              Evoluindo estrategicamente para Análise de Dados com foco em <strong>SQL, Power BI e Python</strong>. 
+              Transformação de dados brutos e transacionais em métricas acionáveis, relatórios preditivos e inteligência de negócio.
+            </p>
+            <ul class="about-feature-list">
+              <li>Modelagem relacional e queries complexas em SQL</li>
+              <li>Construção de painéis interativos e DAX no Power BI</li>
+              <li>Scripts em Python para manipulação, limpeza e automação</li>
+            </ul>
+          </div>
+
+          <div class="about-card glass-card">
+            <div class="about-card-icon business-icon">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            </div>
+            <h3 class="about-card-title">Solut Go Tecnologia & ERP</h3>
+            <p class="about-card-desc">
+              Fundador da <strong>Solut Go Tecnologia</strong>, revenda autorizada do <strong>LC Sistemas ERP</strong> em Itaituba - PA.
+              Atuação direta na implantação de softwares de gestão empresarial, parametrização fiscal e suporte a comércios locais.
+            </p>
+            <ul class="about-feature-list">
+              <li>Profundo conhecimento no banco de dados <strong>Firebird</strong></li>
+              <li>Auditoria, rotinas de backup e integridade de dados fiscais</li>
+              <li>Treinamento de equipes e suporte operacional de alta criticidade</li>
+            </ul>
+          </div>
+
+          <div class="about-card glass-card">
+            <div class="about-card-icon code-icon">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <h3 class="about-card-title">Desenvolvimento Full-Stack & Mobile</h3>
+            <p class="about-card-desc">
+              Desenvolvimento de aplicações web modernas e apps mobile focados em usabilidade e performance. 
+              Integração fluida entre interfaces reativas e backends como serviço.
+            </p>
+            <ul class="about-feature-list">
+              <li>Ecosystem React: Vite, TanStack Router e TypeScript</li>
+              <li>Backend & Auth em nuvem com Supabase</li>
+              <li>Desenvolvimento multiplataforma nativo com Flutter & Dart</li>
+            </ul>
+          </div>
+
+        </div>
+
+        <!-- Info Strip -->
+        <div class="info-strip glass-card">
+          <div class="info-item">
+            <span class="info-icon">📍</span>
+            <div>
+              <span class="info-label">Localização</span>
+              <strong class="info-value">Itaituba, Pará - Brasil</strong>
+            </div>
+          </div>
+          <div class="info-divider"></div>
+          <div class="info-item">
+            <span class="info-icon">🎯</span>
+            <div>
+              <span class="info-label">Objetivo</span>
+              <strong class="info-value">Analista de Dados Jr / BI / TI Híbrido</strong>
+            </div>
+          </div>
+          <div class="info-divider"></div>
+          <div class="info-item">
+            <span class="info-icon">⚡</span>
+            <div>
+              <span class="info-label">Modalidade</span>
+              <strong class="info-value">Remoto, Híbrido ou Presencial</strong>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-badge">Tecnologias</span>
+          <h2 class="section-title">Stack Tecnológico</h2>
+          <p class="section-subtitle">
+            Ferramentas, linguagens e plataformas que utilizo diariamente para construir produtos e analisar informações.
+          </p>
+        </div>
+
+        <!-- Filter tabs -->
+        <div class="filter-tabs" role="tablist" aria-label="Filtrar tecnologias">
+          <button class="filter-tab active" data-filter="all" role="tab" aria-selected="true">Todas</button>
+          <button class="filter-tab" data-filter="data" role="tab" aria-selected="false">📊 Dados & BI</button>
+          <button class="filter-tab" data-filter="web" role="tab" aria-selected="false">💻 Desenvolvimento Web</button>
+          <button class="filter-tab" data-filter="mobile" role="tab" aria-selected="false">📱 Mobile</button>
+          <button class="filter-tab" data-filter="tools" role="tab" aria-selected="false">🔧 Ferramentas & DevOps</button>
+        </div>
+
+        <!-- Tech Grid -->
+        <div class="tech-grid" id="tech-grid">
+          
+          <!-- DADOS & BI -->
+          <div class="tech-card glass-card" data-category="data">
+            <div class="tech-icon-wrap bg-sql">
+              <span class="tech-abbr">SQL</span>
+            </div>
+            <div class="tech-details">
+              <h4 class="tech-name">SQL</h4>
+              <span class="tech-category">Dados & BI</span>
+            </div>
+            <span class="tech-badge">Consultas & Modelagem</span>
+          </div>
+
+          <div class="tech-card glass-card" data-category="data">
+            <div class="tech-icon-wrap bg-powerbi">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+            </div>
+            <div class="tech-details">
+              <h4 class="tech-name">Power BI</h4>
+              <span class="tech-category">Dados & BI</span>
+            </div>
+            <span class="tech-badge">Dashboards & DAX</span>
+          </div>
+
+          <div class="tech-card glass-card" data-category="data">
+            <div class="tech-icon-wrap bg-python">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M11.91 0c-3.5 0-5.74.31-5.74 2.11v2.18h5.83v.73H3.88C1.55 5.02 0 6.64 0 9.55c0 3.01 1.76 4.49 4.3 4.49h1.49v-2.07c0-1.89 1.63-3.4 3.55-3.4h5.83V5.51c0-2.31-1.76-5.51-3.26-5.51zm-1.8 1.48c.45 0 .82.37.82.82s-.37.82-.82.82-.82-.37-.82-.82.37-.82.82-.82zm2.08 7.06c-1.92 0-3.55 1.51-3.55 3.4v3.06h8.12c2.33 0 3.88-1.62 3.88-4.53 0-3.01-1.76-4.49-4.3-4.49h-1.49v2.07h-2.66v-1.51zm3.71 11.95c-.45 0-.82-.37-.82-.82s.37-.82.82-.82.82.37.82.82-.37.82-.82.82z"/></svg>
+            </div>
+            <div class="tech-details">
+              <h4 class="tech-name">Python</h4>
+              <span class="tech-category">Dados & Scripts</span>
+            </div>
+            <span class="tech-badge">Automação & Análise</span>
+          </div>
+
+          <div class="tech-card glass-card" data-category="data">
+            <div class="tech-icon-wrap bg-firebird">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+            </div>
+            <div class="tech-details">
+              <h4 class="tech-name">Firebird</h4>
+              <span class="tech-category">Banco de Dados</span>
+            </div>
+            <span class="tech-badge">ERP & Produção</span>
+          </div>
+
+          <div class="tech-card glass-card" data-category="data">
+            <div class="tech-icon-wrap bg-postgres">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+            </div>
+            <div class="tech-details">
+              <h4 class="tech-name">PostgreSQL / MySQL</h4>
+              <span class="tech-category">Banco de Dados</span>
+            </div>
+            <span class="tech-badge">Relacional</span>
+          </div>
+
+          <div class="tech-card glass-card" data-category="data">
+            <div class="tech-icon-wrap bg-excel">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5.5 14H12l-2-4-2 4H6.5l3.25-5.5L6.5 6H8l2 4 2-4h1.5l-3.25 5.5 3.25 5.5z"/></svg>
+            </div>
+            <div class="tech-details">
+              <h4 class="tech-name">Excel Avançado</h4>
+              <span class="tech-category">Dados & BI</span>
+            </div>
+            <span class="tech-badge">Tabelas & Fórmulas</span>
+          </div>
+
+          <!-- DESENVOLVIMENTO WEB -->
+          <div class="tech-card glass-card" data-category="web">
+            <div class="tech-icon-wrap bg-react">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><circle cx="12" cy="12" r="2.5"/><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(30 12 12)" fill="none" stroke="currentColor" stroke-width="1.2"/><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(90 12 12)" fill="none" stroke="currentColor" stroke-width="1.2"/><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(150 12 12)" fill="none" stroke="currentColor" stroke-width="1.2"/></svg>
+            </div>
+            <div class="tech-details">
+              <h4 class="tech-name">React</h4>
+              <span class="tech-category">Desenvolvimento Web</span>
+            </div>
+            <span class="tech-badge">SPA & Hooks</span>
+          </div>
+
+          <div class="tech-card glass-card" data-category="web">
+            <div class="tech-icon-wrap bg-ts">
+              <span class="tech-abbr">TS</span>
+            </div>
+            <div class="tech-details">
+              <h4 class="tech-name">TypeScript / JS</h4>
+              <span class="tech-category">Desenvolvimento Web</span>
+            </div>
+            <span class="tech-badge">Tipagem Estrita</span>
+          </div>
+
+          <div class="tech-card glass-card" data-category="web">
+            <div class="tech-icon-wrap bg-vite">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+            </div>
+            <div class="tech-details">
+              <h4 class="tech-name">Vite & TanStack</h4>
+              <span class="tech-category">Desenvolvimento Web</span>
+            </div>
+            <span class="tech-badge">Roteamento & Build</span>
+          </div>
+
+          <div class="tech-card glass-card" data-category="web">
+            <div class="tech-icon-wrap bg-supabase">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M21.362 9.354H12V.396a.396.396 0 0 0-.716-.233L2.2 12.656a.396.396 0 0 0 .32.624H12v8.958a.396.396 0 0 0 .716.233l9.084-12.493a.396.396 0 0 0-.32-.624z"/></svg>
+            </div>
+            <div class="tech-details">
+              <h4 class="tech-name">Supabase</h4>
+              <span class="tech-category">Backend & Auth</span>
+            </div>
+            <span class="tech-badge">Postgres + BaaS</span>
+          </div>
+
+          <div class="tech-card glass-card" data-category="web">
+            <div class="tech-icon-wrap bg-node">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M12 2l8.5 4.9v9.8L12 21.6l-8.5-4.9V6.9L12 2z"/></svg>
+            </div>
+            <div class="tech-details">
+              <h4 class="tech-name">Node.js & Bun</h4>
+              <span class="tech-category">Desenvolvimento Web</span>
+            </div>
+            <span class="tech-badge">Runtime & APIs</span>
+          </div>
+
+          <!-- MOBILE -->
+          <div class="tech-card glass-card" data-category="mobile">
+            <div class="tech-icon-wrap bg-flutter">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M14.314 0L2.3 12 6 15.7 21.684 0h-7.37zM6 15.7L2.3 12 14.314 24h7.37L10.3 12.6 6 15.7z"/></svg>
+            </div>
+            <div class="tech-details">
+              <h4 class="tech-name">Flutter & Dart</h4>
+              <span class="tech-category">Mobile</span>
+            </div>
+            <span class="tech-badge">Android & iOS</span>
+          </div>
+
+          <!-- FERRAMENTAS & DEVOPS -->
+          <div class="tech-card glass-card" data-category="tools">
+            <div class="tech-icon-wrap bg-git">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/><circle cx="6" cy="18" r="3"/><line x1="6" y1="9" x2="6" y2="15"/></svg>
+            </div>
+            <div class="tech-details">
+              <h4 class="tech-name">Git & GitHub</h4>
+              <span class="tech-category">Controle de Versão</span>
+            </div>
+            <span class="tech-badge">CI/CD & Repos</span>
+          </div>
+
+          <div class="tech-card glass-card" data-category="tools">
+            <div class="tech-icon-wrap bg-vscode">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M23.15 2.587L18.21.21a1.494 1.494 0 0 0-1.705.29l-9.46 8.63-4.12-3.128a.999.999 0 0 0-1.276.057L.327 7.26a.998.998 0 0 0-.056 1.42l3.49 3.32-3.49 3.32a.998.998 0 0 0 .056 1.42l1.322 1.202a.999.999 0 0 0 1.276.057l4.12-3.128 9.46 8.63a1.492 1.492 0 0 0 1.704.29l4.94-2.377A1.5 1.5 0 0 0 24 20.06V3.94a1.5 1.5 0 0 0-.85-1.353z"/></svg>
+            </div>
+            <div class="tech-details">
+              <h4 class="tech-name">VS Code & Ambientes</h4>
+              <span class="tech-category">Produtividade</span>
+            </div>
+            <span class="tech-badge">IDE & Linters</span>
+          </div>
+
+          <div class="tech-card glass-card" data-category="tools">
+            <div class="tech-icon-wrap bg-infra">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+            </div>
+            <div class="tech-details">
+              <h4 class="tech-name">Infraestrutura & Redes</h4>
+              <span class="tech-category">TI & Suporte</span>
+            </div>
+            <span class="tech-badge">Servidores & Suporte</span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-badge">Portfólio</span>
+          <h2 class="section-title">Projetos em Destaque</h2>
+          <p class="section-subtitle">
+            Aplicações práticas de software, mobile e gestão de dados desenvolvidas para solucionar demandas reais.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          
+          <!-- Projeto 1: Gestão de Segurança -->
+          <article class="project-card glass-card">
+            <div class="project-header">
+              <div class="project-tags">
+                <span class="project-tag tag-mobile">Flutter / Dart</span>
+                <span class="project-tag tag-android">Android App</span>
+              </div>
+              <a href="https://github.com/SOLUTGO/Gesta-o-de-Seguran-a" target="_blank" rel="noopener noreferrer" class="project-link-icon" aria-label="Ver repositório do projeto Gestão de Segurança">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+
+            <h3 class="project-title">Gestão de Segurança</h3>
+            <p class="project-description">
+              Aplicativo móvel desenvolvido com foco no ecossistema Android para acompanhamento, gestão e monitoramento.
+              Construído com arquitetura reativa em Dart, priorizando experiência do usuário ágil e interfaces consistentes.
+            </p>
+
+            <div class="project-features">
+              <span class="feat-badge">Interface fluida & responsiva</span>
+              <span class="feat-badge">Gestão de formulários e estados</span>
+              <span class="feat-badge">Boas práticas em Dart</span>
+            </div>
+
+            <div class="project-footer">
+              <div class="project-techs">
+                <span class="tech-mini-pill">Flutter</span>
+                <span class="tech-mini-pill">Dart</span>
+                <span class="tech-mini-pill">Android</span>
+              </div>
+              <a href="https://github.com/SOLUTGO/Gesta-o-de-Seguran-a" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                <span>Ver Código</span>
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Projeto 2: Plataforma de Currículo/Vagas -->
+          <article class="project-card glass-card">
+            <div class="project-header">
+              <div class="project-tags">
+                <span class="project-tag tag-web">React + Vite</span>
+                <span class="project-tag tag-wip">Em Desenvolvimento</span>
+              </div>
+              <div class="project-badge-lock" title="Repositório Privado">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+              </div>
+            </div>
+
+            <h3 class="project-title">Plataforma de Currículo & Vagas</h3>
+            <p class="project-description">
+              Sistema web inteligente desenvolvido para calcular e exibir a compatibilidade percentual entre requisitos 
+              de vagas de tecnologia e o currículo do candidato, facilitando o mapeamento de gaps de competência.
+            </p>
+
+            <div class="project-features">
+              <span class="feat-badge">Roteamento tipo-seguro com TanStack Router</span>
+              <span class="feat-badge">Armazenamento & Autenticação via Supabase</span>
+              <span class="feat-badge">Dashboard analítico de aderência</span>
+            </div>
+
+            <div class="project-footer">
+              <div class="project-techs">
+                <span class="tech-mini-pill">React</span>
+                <span class="tech-mini-pill">TypeScript</span>
+                <span class="tech-mini-pill">Supabase</span>
+                <span class="tech-mini-pill">Vite</span>
+              </div>
+              <span class="project-status-text">🔒 Projeto Privado</span>
+            </div>
+          </article>
+
+          <!-- Projeto 3: Solut Go Tecnologia & ERP LC Sistemas -->
+          <article class="project-card glass-card">
+            <div class="project-header">
+              <div class="project-tags">
+                <span class="project-tag tag-business">Solut Go Tecnologia</span>
+                <span class="project-tag tag-data">ERP & Dados</span>
+              </div>
+              <span class="project-tag tag-active">Operação Ativa</span>
+            </div>
+
+            <h3 class="project-title">Implantação ERP & Análise de Negócios</h3>
+            <p class="project-description">
+              Revenda autorizada do <strong>LC Sistemas ERP</strong> em Itaituba - Pará. 
+              Estruturação e migração de dados de comércios locais para Firebird, parametrização de módulos de estoque, 
+              faturamento, emissão fiscal e geração de relatórios de tomada de decisão.
+            </p>
+
+            <div class="project-features">
+              <span class="feat-badge">Consultoria técnica em banco Firebird</span>
+              <span class="feat-badge">Relatórios analíticos para gestores</span>
+              <span class="feat-badge">Infraestrutura e rotinas de backup</span>
+            </div>
+
+            <div class="project-footer">
+              <div class="project-techs">
+                <span class="tech-mini-pill">Firebird</span>
+                <span class="tech-mini-pill">SQL</span>
+                <span class="tech-mini-pill">LC Sistemas</span>
+                <span class="tech-mini-pill">Suporte TI</span>
+              </div>
+              <a href="#contact" class="btn btn-sm btn-outline">
+                <span>Saiba Mais</span>
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- GitHub Stats Section -->
+    <section class="section github-section" id="github-stats">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-badge">Atividade & Métricas</span>
+          <h2 class="section-title">Estatísticas do GitHub</h2>
+          <p class="section-subtitle">
+            Acompanhamento em tempo real da atividade de código, commits e principais linguagens no perfil @SOLUTGO.
+          </p>
+        </div>
+
+        <!-- Live GitHub Cards -->
+        <div class="stats-grid">
+          
+          <div class="stat-card glass-card">
+            <h4 class="stat-card-title">Métricas Gerais</h4>
+            <div class="stat-img-wrapper">
+              <img 
+                src="https://github-readme-stats.vercel.app/api?username=SOLUTGO&show_icons=true&theme=dark&hide_border=true&count_private=true&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8&icon_color=38bdf8" 
+                alt="GitHub Stats de Gustavo" 
+                loading="lazy"
+                class="responsive-stat-img"
+              />
+            </div>
+          </div>
+
+          <div class="stat-card glass-card">
+            <h4 class="stat-card-title">Top Linguagens</h4>
+            <div class="stat-img-wrapper">
+              <img 
+                src="https://github-readme-stats.vercel.app/api/top-langs/?username=SOLUTGO&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8" 
+                alt="Top Linguagens de Gustavo no GitHub" 
+                loading="lazy"
+                class="responsive-stat-img"
+              />
+            </div>
+          </div>
+
+        </div>
+
+        <div class="streak-card glass-card">
+          <h4 class="stat-card-title text-center">Streak de Contribuições</h4>
+          <div class="stat-img-wrapper text-center">
+            <img 
+              src="https://streak-stats.demolab.com?user=SOLUTGO&theme=dark&hide_border=true&background=0d1117&ring=38bdf8&fire=38bdf8&currStreakLabel=38bdf8" 
+              alt="GitHub Streak de Gustavo" 
+              loading="lazy"
+              class="responsive-stat-img streak-img"
+            />
+          </div>
+        </div>
+
+        <!-- Live Repositories Container (Populated via JS GitHub API) -->
+        <div class="repos-wrapper">
+          <div class="repos-header">
+            <div>
+              <h3 class="repos-title">Repositórios Públicos no GitHub</h3>
+              <p class="repos-subtitle">Sincronizado automaticamente via GitHub API</p>
+            </div>
+            <a href="https://github.com/SOLUTGO?tab=repositories" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+              <span>Ver Todos no GitHub</span>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+
+          <div class="repos-grid" id="repos-container">
+            <div class="repo-loading">
+              <div class="spinner"></div>
+              <span>Carregando repositórios do GitHub...</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Certifications & Learning Journey -->
+    <section class="section learning-section" id="learning">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-badge">Desenvolvimento Contínuo</span>
+          <h2 class="section-title">Certificações & Aprendizado</h2>
+          <p class="section-subtitle">
+            Cultura de constante evolução técnica para entregar projetos mais eficientes e orientados a resultados.
+          </p>
+        </div>
+
+        <div class="learning-grid">
+          
+          <div class="learning-card glass-card">
+            <div class="learning-icon">📘</div>
+            <h3 class="learning-title">SQL, Python & Power BI</h3>
+            <p class="learning-desc">
+              Imersão contínua em engenharia e modelagem de dados, automações de scripts ETL e elaboração de relatórios dinâmicos.
+            </p>
+            <span class="learning-tag">Trilha Ativa</span>
+          </div>
+
+          <div class="learning-card glass-card">
+            <div class="learning-icon">🏆</div>
+            <h3 class="learning-title">Business Intelligence (BI)</h3>
+            <p class="learning-desc">
+              Foco em KPIs executivos, storytelling com dados e integração de bancos relacionais para decisões estratégicas.
+            </p>
+            <span class="learning-tag">Especialização</span>
+          </div>
+
+          <div class="learning-card glass-card">
+            <div class="learning-icon">🌱</div>
+            <h3 class="learning-title">Cloud Computing & DevOps</h3>
+            <p class="learning-desc">
+              Explorando conteinerização, práticas modernas de deploy contínuo (CI/CD) e bancos de dados em nuvem.
+            </p>
+            <span class="learning-tag">Em Expansão</span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-badge">Conexão</span>
+          <h2 class="section-title">Vamos Conversar?</h2>
+          <p class="section-subtitle">
+            Seja para uma oportunidade como Analista de Dados, estágio em BI, projetos de software ou consultoria ERP, estou à disposição!
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Email Card with 1-click Copy -->
+          <div class="contact-card glass-card">
+            <div class="contact-icon email-icon">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <h3 class="contact-title">E-mail Profissional</h3>
+            <p class="contact-desc">Envie uma mensagem ou proposta diretamente para minha caixa de entrada.</p>
+            <div class="contact-value-box">
+              <span id="email-text">gmelosv@gmail.com</span>
+              <button class="copy-btn" id="copy-email-btn" title="Copiar e-mail" aria-label="Copiar e-mail para área de transferência">
+                <svg class="copy-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                <span class="copy-feedback">Copiado!</span>
+              </button>
+            </div>
+            <a href="mailto:gmelosv@gmail.com" class="btn btn-sm btn-primary full-width">Enviar E-mail</a>
+          </div>
+
+          <!-- LinkedIn Card -->
+          <div class="contact-card glass-card">
+            <div class="contact-icon linkedin-icon">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </div>
+            <h3 class="contact-title">LinkedIn</h3>
+            <p class="contact-desc">Conecte-se comigo profissionalmente, veja minha rede e referências.</p>
+            <div class="contact-value-box">
+              <span>gustavooliveira-dados</span>
+            </div>
+            <a href="https://www.linkedin.com/in/gustavooliveira-dados/" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-secondary full-width">
+              <span>Acessar Perfil</span>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+
+          <!-- Instagram Card -->
+          <div class="contact-card glass-card">
+            <div class="contact-icon instagram-icon">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </div>
+            <h3 class="contact-title">Instagram</h3>
+            <p class="contact-desc">Acompanhe meu cotidiano, tecnologia e projetos nas redes sociais.</p>
+            <div class="contact-value-box">
+              <span>@gustavo.melo_s</span>
+            </div>
+            <a href="https://www.instagram.com/gustavo.melo_s/" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-secondary full-width">
+              <span>Seguir no Instagram</span>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+
+          <!-- GitHub Card -->
+          <div class="contact-card glass-card">
+            <div class="contact-icon github-icon">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            </div>
+            <h3 class="contact-title">GitHub Profile</h3>
+            <p class="contact-desc">Confira todos os commits, forks, projetos e contribuições open-source.</p>
+            <div class="contact-value-box">
+              <span>github.com/SOLUTGO</span>
+            </div>
+            <a href="https://github.com/SOLUTGO" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-secondary full-width">
+              <span>Ver Perfil</span>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <a href="#hero" class="brand-logo footer-logo">
+          <span class="logo-accent">&lt;</span>SOLUT<span class="logo-highlight">GO</span><span class="logo-accent">/&gt;</span>
+        </a>
+        <p class="footer-copy">
+          © <span id="current-year"></span> Gustavo. Todos os direitos reservados.
+        </p>
+      </div>
+
+      <div class="footer-center">
+        <!-- Visitor counter badge from README -->
+        <div class="visitor-counter">
+          <img src="https://komarev.com/ghpvc/?username=SOLUTGO&style=flat-square&color=blue" alt="Profile views" loading="lazy" />
+        </div>
+      </div>
+
+      <div class="footer-right">
+        <p class="footer-tagline">✨ Obrigado pela visita! Vamos conectar? ✨</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification for Copy action -->
+  <div class="toast" id="toast" role="alert" aria-live="polite">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+    <span id="toast-message">E-mail copiado para a área de transferência!</span>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
